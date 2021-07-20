@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stocks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b4ffb712fb.js" crossorigin="anonymous"></script>
+    <style>
+        .stock{
+            display: flex;
+            border: 2px solid black;
+            margin-top: 5px;
+        }
+        .stock a{
+            display: flex;
+            padding: 14px 82px;
+        }
+        .fa-search{
+            height: 10px;
+            padding: 5px;
+        }
+        .btn {
+            height: 38px;
+            padding-top: 0px;
+            margin: 12px 21px;
+        }
+        .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ background-color:#d53369;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cbad6d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color:white;
+    text-align: center;
+ }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div>Ayush Gupta : <a href="tel :+91-6388649039">6388649039</a></div>
+        <div>Ansh Saxena : <a href="tel :+91-9084462220">9084452220</a></div>
+        <div>
+            <a href="mailto:ayushgahoi2001@gmail">vsmart@gmail.com</a>
+        </div>
+
+        <div>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-pinterest"></i>
+        </div>
+    </div>
+    <header>
+        <div>
+            <img src="logo2.jpg" height="80px" width="280px">
+        </div>
+        <div>
+           <a href="home.html" target="_top">Home</a>
+            <a href="aboutus.html" target="_top">About Us</a>
+            <a href="stock.html" target="_top">StockDetails</a>
+            <a href="contact.html" target="_top">Contact Us</a>
+        </div>
+    </header>
+    <div class="stock">
+     
+        <a href="add.html">Add Stock</a>
+        <a href="ShowDetails">View All Stocks</a>
+      
+    </div>
+    <h1 class="heading">Stocks Details</h1>
+    <table align=center class="stocks">
+        <tr>
+            <th>Product Category</th>
+            <th>Product Name</th>
+            <th>Mfg. Date</th>
+            <th>Exp. Date</th>
+            <th>Seller</th>
+            <th>Total Stock</th>
+            <th>Stocks Left</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td rowspan="7">Daily Products</td>
+            <td>Milk</td>
+            <td>03-07-2021</td>
+            <td>04-07-2021</td>
+            <td>Amul</td>
+            <td>1000</td>
+            <td>650</td>
+            <td>Rs.60/litre</td>
+        <tr>
+            <td>Bread</td>
+            <td>01-07-2021</td>
+            <td>Best Before 1 Month</td>
+            <td>Good Morning</td>
+            <td>700</td>
+            <td>350</td>
+            <td>Rs.45</td>
+        <tr>
+            <td>Butter</td>
+            <td>01-07-2021</td>
+            <td>Best Before 1 Month</td>
+            <td>Amul</td>
+            <td>700</td>
+            <td>350</td>
+            <td>Rs.40</td>
+        <tr>
+            <td>Tea</td>
+            <td>20-06-2021</td>
+            <td>Best Before 6 Month</td>
+            <td>Taj Mahal</td>
+            <td>700</td>
+            <td>350</td>
+            <td>Rs.300</td>
+        </tr>
+        <tr>
+            <td>Sugar</td>
+            <td>25-06-2021</td>
+            <td>Best Before 6 Month</td>
+            <td>Hills Sugar Mill</td>
+            <td>600</td>
+            <td>450</td>
+            <td>Rs.55</td>
+        <tr>
+            <td>Soap</td>
+            <td>22-06-2021</td>
+            <td>Best Before 6 Month</td>
+            <td>Hindustan Pvt. Ltd</td>
+            <td>1500</td>
+            <td>850</td>
+            <td>Rs.34</td>
+        <tr>
+            <td>Toothpaste</td>
+            <td>21-06-2021</td>
+            <td>Best Before 6 Month</td>
+            <td>Colgate</td>
+            <td>800</td>
+            <td>550</td>
+            <td>Rs.82</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Grocery</td>
+            <td>Cabbage</td>
+            <td>03-07-2021</td>
+            <td>Best Before 2 Days</td>
+            <td>Modern Farms</td>
+            <td>200</td>
+            <td>120</td>
+            <td>Rs.41</td>
+        <tr>
+            <td>Mushroom</td>
+            <td>03-07-2021</td>
+            <td>Best Before 2 Days</td>
+            <td>Modern Farms</td>
+            <td>200</td>
+            <td>120</td>
+            <td>Rs.71</td>
+        </tr>
+        <tr>
+            <td>Broccoli</td>
+            <td>03-07-2021</td>
+            <td>Best Before 2 Days</td>
+            <td>Modern Farms</td>
+            <td>200</td>
+            <td>110</td>
+            <td>Rs.80</td>
+        </tr>
+        <tr>
+            <td>Capsicum</td>
+            <td>03-07-2021</td>
+            <td>Best Before 2 Days</td>
+            <td>Modern Farms</td>
+            <td>200</td>
+            <td>90</td>
+            <td>Rs.21</td>
+        </tr>
+        <tr>
+            <td>Cauliflower</td>
+            <td>03-07-2021</td>
+            <td>Best Before 2 Days</td>
+            <td>Modern Farms</td>
+            <td>200</td>
+            <td>100</td>
+            <td>Rs.51</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Dry Fruits</td>
+            <td>Cashew Nut</td>
+            <td>01-07-2021</td>
+            <td>Best Before 5 Months</td>
+            <td>HT Dry Fruits</td>
+            <td>300</td>
+            <td>225</td>
+            <td>Rs.250</td>
+        </tr>
+            <td>Pistachio</td>
+            <td>01-07-2021</td>
+            <td>Best Before 5 Months</td>
+            <td>HT Dry Fruits</td>
+            <td>300</td>
+            <td>245</td>
+            <td>Rs.270</td>
+        </tr>
+        <tr>
+            <td>Walnut</td>
+            <td>01-07-2021</td>
+            <td>Best Before 5 Months</td>
+            <td>HT Dry Fruits</td>
+            <td>300</td>
+            <td>215</td>
+            <td>Rs.240</td>
+        </tr>
+        <tr>
+            <td>Raisins</td>
+            <td>01-07-2021</td>
+            <td>Best Before 5 Months</td>
+            <td>HT Dry Fruits</td>
+            <td>300</td>
+            <td>205</td>
+            <td>Rs.210</td>
+        </tr>
+        <tr>
+            <td>Almonds</td>
+            <td>01-07-2021</td>
+            <td>Best Before 5 Months</td>
+            <td>HT Dry Fruits</td>
+            <td>300</td>
+            <td>225</td>
+            <td>Rs.290</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Covid Essentials</td>
+            <td>Mask</td>
+            <td>01-07-2021</td>
+            <td>Best Before 1 Year</td>
+            <td>Nacty Pharamaceuticals</td>
+            <td>500</td>
+            <td>225</td>
+            <td>Rs.40</td>
+        <tr>
+            <td>Hand Sanitizer</td>
+            <td>01-07-2021</td>
+            <td>Best Before 1 Year</td>
+            <td>Nacty Pharamaceuticals</td>
+            <td>500</td>
+            <td>205</td>
+            <td>Rs.60</td>
+        </tr>
+        <tr>
+            <td>Oxygen Meter</td>
+            <td>01-07-2021</td>
+            <td>_</td>
+            <td>Nacty Pharamaceuticals</td>
+            <td>300</td>
+            <td>205</td>
+            <td>Rs.600</td>
+        </tr>
+        <tr>
+            <td>Face Sheild</td>
+            <td>01-07-2021</td>
+            <td>_</td>
+            <td>Nacty Pharamaceuticals</td>
+            <td>300</td>
+            <td>245</td>
+            <td>Rs.250</td>
+        </tr>
+        <tr>
+            <td>PPE Safety Kit</td>
+            <td>01-07-2021</td>
+            <td>_</td>
+            <td>Nacty Pharamaceuticals</td>
+            <td>100</td>
+            <td>82</td>
+            <td>Rs.250</td>
+        </tr>
+        <tr>
+            <td rowspan="8">Cosmetics</td>
+            <td>Face Wash</td>
+            <td>01-07-2021</td>
+            <td>Best Before 10 Months</td>
+            <td>Mama Earth</td>
+            <td>200</td>
+            <td>162</td>
+            <td>Rs.150</td>
+        <tr>
+            <td>Face Mask</td>
+            <td>01-07-2021</td>
+            <td>Best Before 10 Months</td>
+            <td>Mama Earth</td>
+            <td>200</td>
+            <td>172</td>
+            <td>Rs.180</td>
+        <tr>
+            <td>Hair Oil</td>
+            <td>01-07-2021</td>
+            <td>Best Before 10 Months</td>
+            <td>Mama Earth</td>
+            <td>200</td>
+            <td>142</td>
+            <td>Rs.190</td>
+        <tr>
+            <td>Face Cream</td>
+            <td>01-07-2021</td>
+            <td>Best Before 10 Months</td>
+            <td>Mama Earth</td>
+            <td>200</td>
+            <td>162</td>
+            <td>Rs.200</td>
+        </tr>
+        <tr>
+            <td>Hair Fall Reduction Shampoo</td>
+            <td>01-07-2021</td>
+            <td>Best Before 10 Months</td>
+            <td>Mama Earth</td>
+            <td>200</td>
+            <td>142</td>
+            <td>Rs.220</td>
+        </tr>
+        <tr>
+            <td>Shampoo</td>
+            <td>01-07-2021</td>
+            <td>Best Before 10 Months</td>
+            <td>Mama Earth</td>
+            <td>200</td>
+            <td>178</td>
+            <td>Rs.192</td>
+        </tr>
+        <tr>
+            <td>Conditioner</td>
+            <td>01-07-2021</td>
+            <td>Best Before 10 Months</td>
+            <td>Mama Earth</td>
+            <td>200</td>
+            <td>152</td>
+            <td>Rs.140</td>
+        </tr>
+        <tr>
+            <td>Tan Removal Cream</td>
+            <td>01-07-2021</td>
+            <td>Best Before 10 Months</td>
+            <td>Mama Earth</td>
+            <td>200</td>
+            <td>152</td>
+            <td>Rs.210</td>
+        </tr>
+        <tr>
+            <td rowspan="6">Electonics</td>
+            <td>Refrigertor</td>
+            <td>01-07-2021</td>
+            <td>5 Years Warranty</td>
+            <td>Samsung</td>
+            <td>100</td>
+            <td>90</td>
+            <td>Rs.35000</td>
+        </tr>
+        <tr>
+            <td>Air Conditiner</td>
+            <td>01-07-2021</td>
+            <td>5 Years Warranty</td>
+            <td>Whirlpool</td>
+            <td>80</td>
+            <td>72</td>
+            <td>Rs.36000</td>
+        </tr>
+        <tr>
+            <td>Washing Machine</td>
+            <td>01-07-2021</td>
+            <td>5 Years Warranty</td>
+            <td>Samsung</td>
+            <td>80</td>
+            <td>65</td>
+            <td>Rs.25000</td>
+        </tr>
+        <tr>
+            <td>Television</td>
+            <td>01-07-2021</td>
+            <td>5 Years Warranty</td>
+            <td>Samsung</td>
+            <td>100</td>
+            <td>90</td>
+            <td>Rs.22000</td>
+        </tr>
+        <tr>
+            <td>Microwave</td>
+            <td>01-07-2021</td>
+            <td>5 Years Warranty</td>
+            <td>Samsung</td>
+            <td>100</td>
+            <td>90</td>
+            <td>Rs.26000</td>
+        </tr>
+        <tr>
+            <td>Mixer Grinder</td>
+            <td>01-07-2021</td>
+            <td>5 Years Warranty</td>
+            <td>Samsung</td>
+            <td>100</td>
+            <td>80</td>
+            <td>Rs.15000</td>
+        </tr>
+
+    </table>
+    <div class="footer">
+        <p>Privacy Policy &copy By 2021 VS MART</p>
+    </div>
+</body>
+
+</html>
